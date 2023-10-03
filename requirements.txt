@@ -1,4 +1,4 @@
 streamlit
 openai
 langchain
-bs4
+beautifulsoup4

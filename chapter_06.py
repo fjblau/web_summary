@@ -9,7 +9,7 @@ from langchain.schema import (
 from langchain.callbacks import get_openai_callback
 
 import requests
-from bs4 import BeautifulSoup
+from beautifulsoup4 import BeautifulSoup
 from urllib.parse import urlparse
 
 openai_api_key = st.secrets["OPENAI_API_KEY"]
