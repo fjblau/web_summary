@@ -2,4 +2,3 @@ streamlit
 openai
 langchain
 bs4
-streamlit-chat
