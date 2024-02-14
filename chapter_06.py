@@ -58,7 +58,7 @@ def validate_url(url):
 
 def get_content(url):
     try:
-        with st.spinner("Fetching Content ..."):
+        with st.spinner("Fetching Content ...."):
             response = requests.get(url)
             soup = BeautifulSoup(response.text, 'html.parser')
             # fetch text from main (change the below code to filter page)
